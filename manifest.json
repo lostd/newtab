@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Newtab",
+  "version": "1.0",
+  "description": "Customize new tab",
+  "author": "Lazaros Koromilas",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "host_permissions": [
+    "file://*"
+  ]
+}
